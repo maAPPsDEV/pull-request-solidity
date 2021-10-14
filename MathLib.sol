@@ -52,7 +52,7 @@ library MathLib {
   ) internal pure returns (bool reversed, uint256 swapAmount) {
     require(
       extension > fee && reserveA > 0 && reserveB > 0,
-      "OLib: Invalid Parameter"
+      "MathLib: Invalid Parameter"
     );
     require(amountA > 0 || amountB > 0, "OLib: Invalid Amount");
 
