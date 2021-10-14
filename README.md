@@ -4,7 +4,7 @@ This PR implements a new library function that calculates the optimal amount to 
 
 Reference:
 - [Optimal One-sided Supply to Uniswap](https://blog.alphafinance.io/onesideduniswap/)
-- [@shenrene 's research](https://www.dropbox.com/transfer/AAAAADCQOQCEgIndGf8WPlqPagEkNXNBvZPFxaxQ0Md_IWEHkXOWQ7E)
+- [@racheal 's research](https://www.dropbox.com/transfer/AAAAADCQOQCEgIndGf8WPlqPagEkNXNBvZPFxaxQ0Md_IWEHkXOWQ7E)
 
 ### Technical Description
 
@@ -57,7 +57,7 @@ reserveA * amountB > reserveB * amountA
 ### Overflow Potentiality
 For now, we have two math equations:
 One is from [alpha homora](https://blog.alphafinance.io/onesideduniswap/) - assume it EQ1
-Another one is from @rene’s [math](https://www.dropbox.com/transfer/AAAAADCQOQCEgIndGf8WPlqPagEkNXNBvZPFxaxQ0Md_IWEHkXOWQ7E) - assume it EQ2
+Another one is from @racheal’s [math](https://www.dropbox.com/transfer/AAAAADCQOQCEgIndGf8WPlqPagEkNXNBvZPFxaxQ0Md_IWEHkXOWQ7E) - assume it EQ2
 
 The two equations are correct/valid, and EQ1 is used widely.
 
