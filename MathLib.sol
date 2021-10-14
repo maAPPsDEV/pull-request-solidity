@@ -54,7 +54,7 @@ library MathLib {
       extension > fee && reserveA > 0 && reserveB > 0,
       "MathLib: Invalid Parameter"
     );
-    require(amountA > 0 || amountB > 0, "OLib: Invalid Amount");
+    require(amountA > 0 || amountB > 0, "MathLib: Invalid Amount");
 
     uint256 net; // 1 - fee
 
