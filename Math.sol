@@ -1,3 +1,21 @@
+// SPDX-License-Identifier: AGPL-3.0
+pragma solidity 0.8.3;
+
+import "@openzeppelin/contracts/utils/Arrays.sol";
+import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
+import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import "@uniswap/lib/contracts/libraries/Babylonian.sol";
+
+//import "@openzeppelin/contracts/utils/Address.sol";
+
+/**
+ * @title Helper functions
+ */
+library OLib {
+  using Arrays for uint256[];
+  using OLib for OLib.Investor;
+  using Babylonian for uint256;
+
   /**
    * @dev Calculates the optimal amount of assets to swap
    * in order to supply to AMM in the exact proportionate.
