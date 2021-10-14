@@ -95,7 +95,6 @@ What does it cost to us?
 
 In order to implement multiplication of 512bit numbers, roughly we need 4 `mul`s + 3 `add`s + 4 `push`.
 I don't think it costs too much.
-@suranap Let's think about it later.
 
 ### Test Notes
 
